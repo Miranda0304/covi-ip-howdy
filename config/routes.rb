@@ -8,6 +8,10 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
 
+  # COVID REPORT
   get "report" => "report#index"
   post "report" => "report#create"
+
+  # IP LOCATION
+  get "whereami" => "whereami#index"
 end

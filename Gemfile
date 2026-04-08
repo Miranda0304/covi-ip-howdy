@@ -5,6 +5,7 @@ gem "rails", "~> 8.1.3"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", ">= 2.1"
 gem 'pg', '~> 1.6', '>= 1.6.3'
+gem 'rest-client', '~> 2.1'
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 7.2'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]

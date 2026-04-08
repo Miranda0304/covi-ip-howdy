@@ -4,8 +4,9 @@ source "https://rubygems.org"
 gem "rails", "~> 8.1.3"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", ">= 2.1"
+gem 'pg', '~> 1.6', '>= 1.6.3'
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", ">= 5.0"
+gem 'puma', '~> 7.2'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
@@ -47,4 +48,9 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+  gem "solargraph", "~> 0.58.3"
+  gem 'rubocop', '~> 1.86'
+  gem 'dotenv-rails', '~> 3.2'
+  gem 'rufo', '~> 0.18.2'
+  gem 'bullet', '~> 8.1'
 end
